@@ -6,6 +6,10 @@ package classAssignments;
  * @author AL
  */
 public class Counter {
+    public static void main(String[] args)
+    {
+        System.out.println("Add Main func so this goes vroom vroom");  
+    }
  
     private int num;
     
