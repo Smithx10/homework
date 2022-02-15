@@ -3,14 +3,21 @@ public class Counter {
     
     // count is a attribute associated with all counters.  Each counter will store its count here.
     private int count;
+    private String name;
 
     // The Counter() function is our constructor.  It is what is called to "construct" an instance of the Counter Class.
-    public Counter(){
+    public Counter(String n){
         count = 0;
+        name = n;
     }
     
+
+    public void AddOne(){
+        count = count + 1;
+    }
+
     // The PrintCount() function is used to print out the current count.
     public void PrintCount(){
-        System.out.println("Current Value: " + count);  
+        System.out.println("Counter: " + name + " Current Value: " + count);  
     }
 }
