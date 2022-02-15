@@ -24,7 +24,7 @@ public class Counter {
     public void SubBySubtrominator(int subtrominator){
       if (count - subtrominator < 0) {
         // Sad Place
-        System.out.println("Can't go Lower than 0 bro.");
+        System.out.println("Can't go Lower than 0.");
         // Probably should return an error
         return;
       }
